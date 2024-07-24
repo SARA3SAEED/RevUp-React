@@ -1,0 +1,74 @@
+:root {
+  scroll-behavior: smooth;
+}
+@keyframes carMoves {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 100%;
+  }
+}
+@keyframes opc {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slider-container {
+  opacity: 0;
+  /* transition: opc 500ms ease-in-out; */
+}
+.visible {
+  opacity: 1;
+  animation: opc 500ms ease-in-out;
+
+  /* animation: opc 3s ease-in-out 1s; */
+}
+.animataion {
+  animation: 2s linear 1s infinite carMoves;
+}
+/* 
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 30px;
+  line-height: 1;
+  opacity: 1;
+  color: #c879ff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+.slide img {
+  width: 100%;
+  height: 10rem;
+}
+.slide {
+  opacity: 0.5;
+  transform: scale(0.5);
+  transition: 0.5s;
+  filter: blur(5px);
+}
+.slide-active {
+  opacity: 1;
+  transform: scale(1);
+  filter: blur(0);
+}
+
+/* @media only screen and (min-width: 600px) { */
+
+/* } */
+
+
+
+.pricing-modal {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999; /* Ensure the modal is on top of other elements */
+  width: auto; /* Adjust width as needed */
+  max-width: 300px; /* Optional: Set a max width for the modal */
+}

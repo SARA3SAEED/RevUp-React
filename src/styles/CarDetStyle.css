@@ -1,0 +1,8 @@
+.colorCont > .slick-slider {
+  width: 15rem;
+  height: 4rem;
+}
+button > .slick-list > div {
+  width: 3.5rem;
+  height: 4rem;
+}
