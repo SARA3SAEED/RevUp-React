@@ -56,7 +56,6 @@ Demo Live: [RevUp](https://main--revup-react.netlify.app/)
 
 ## Screenshots
 ![Screenshot1](https://github.com/user-attachments/assets/81233c1e-dc93-4f39-9e6b-91554632d09e)
-![Screenshot2](https://github.com/user-attachments/assets/e68c617b-6790-4dca-97b9-0396a97c0c84)
 ![Screenshot3](https://github.com/user-attachments/assets/455591e7-1aac-4a8a-bb63-d0bf07715df7)
 ![Screenshot4](https://github.com/user-attachments/assets/932d2b9c-27ce-4af6-81d0-114b9a4e36b4)
 ![Screenshot7](https://github.com/user-attachments/assets/ec5172d5-3b43-4b05-a96d-a42220373c43)
